@@ -17,19 +17,18 @@ $results = $statement->get_result();
 $row = $results->fetch_assoc();
 ?>
 
-<span style="float:right;"><?=$row["price"];?>EUR</span>
+<span style ="float:right;"><?=$row["price"];?>EUR</span>
 <h1><?=$row["name"];?></h1>
 
-<p>
-<?=$row["description"];?>
-</p>
+      <p>
+        <?=$row["description"];?>
+      </p>
 
 <form method="post" action="cart.php">
   <input type="hidden" name="id" value="<?=$_GET["id"];?>"/>
-  <input type="hidden" name="count" value="1"/>
-  <input type="submit" value="Add to cart"/>
+  <input type="hidden" name="count" value="-1"/>
+  <input type="submit" value= "Remove"/>
 </form>
 
-<?php include "footer.php" ?>
-
+<? include "footer.php" ?>
 

@@ -12,16 +12,10 @@ if (!array_key_exists("timestamp", $_SESSION)) {
 }
 
 ?>
-<img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtJcOZlQvahtX7Ob6tvNQIcl7_csmKNLtfzhHYK4P2kF1QvJYB" />  
 
-
-<h1 style="color:Purple ;font-family:Arial; float:Center"><em>Honest sheela's webshop</em></h1>
-
-<p><a href ="registration.php">Sign up!</a> . <a href="cart.php">Go to shopping cart</a></p>
-
+<h1>Honest sheela's webshop</h1>
 <p>NSA is monitoring you since <?=$_SESSION["timestamp"];?></p>
 <p>If you want any of these just call me ;)</p>
-
 <ul>
 
    

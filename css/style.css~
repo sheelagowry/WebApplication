@@ -13,7 +13,7 @@ html, body {
 
 body {
     padding: 0 1em;
-    background-color: #ADD8E6;
+    background-color: #800080;
 }
 
 #content, footer { /* This expects id="content" ;) */
